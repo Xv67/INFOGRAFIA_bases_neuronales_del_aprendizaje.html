@@ -1,0 +1,559 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Mega&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jomhuria&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pangolin&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Narrow:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200;300;400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  box-sizing: border-box;
+  vertical-align: baseline;
+}
+
+body {
+  font-family: "Open Sans", 'Big Shoulders Display', 'Roboto', 'Lexend Mega',
+    'Sriracha', 'Playfair Display', 'Jomhuria', 'Pangolin', 'Quicksand', 'Inconsolata',
+    'PT Sans Narrow', 'Dosis', 'Anton', 'Cabin',
+    'Libre Baskerville', 'Libre Franklin', 'Bitter', 'Bebas Neue', 'Lobster', 'Abel',
+    'Archivo', monospace, serif, sans-serif;
+  background-color: black;
+}
+
+.grid {
+  margin: 3em;
+}
+
+.one {
+  width: 530px;
+  font-family: 'Big Shoulders Display';
+  font-size: 1.4em;
+  font-weight: bolder;
+  color: #035efc;
+  border: 11px solid #035efc;
+  padding: 0.9em;
+  text-transform: uppercase;
+  text-indent: 0.3em;
+  letter-spacing: 0.05em;
+  margin: 0.2em;
+}
+
+.two {
+  width: 260px;
+  font-family: 'Roboto';
+  font-size: 1.2em;
+  font-weight: bolder;
+  color: #0341fc;
+  border: 7px double #0341fc;
+  border-radius: 25px;
+  padding: 0.9em;
+  text-transform: uppercase;
+  text-indent: 0.3em;
+  letter-spacing: 0.05em;
+  margin: 0.2em;
+}
+
+.three {
+  width: 160px;
+  font-family: 'Lexend Mega';
+  font-size: 0.9em;
+  font-weight: bolder;
+  color: #0324fc;
+  border: 5px groove #0324fc;
+  padding: 0.9em;
+  text-indent: 0.3em;
+  letter-spacing: 0.05em;
+  margin: 0.2em;
+  border-radius: 10px;
+}
+
+.four {
+  width: 160px;
+  font-family: 'Sriracha';
+  font-size: 0.9em;
+  font-weight: bolder;
+  color: #0314fc;
+  border: 5px groove #0314fc;
+  padding: 0.9em;
+  text-indent: 0.3em;
+  letter-spacing: 0.05em;
+  margin: 0.2em;
+  border-radius: 10px;
+}
+
+.five {
+  width: 160px;
+  font-family: 'Playfair Display';
+  font-size: 0.9em;
+  font-weight: bolder;
+  color: #0b03fc;
+  border: 5px groove #0b03fc;
+  padding: 0.9em;
+  text-indent: 0.3em;
+  letter-spacing: 0.05em;
+  margin: 0.2em;
+  border-radius: 10px;
+}
+
+.six {
+  width: 160px;
+  font-family: 'Jomhuria';
+  font-size: 0.9em;
+  font-weight: bolder;
+  color: #2d03fc;
+  border: 5px groove #2d03fc;
+  padding: 0.9em;
+  text-indent: 0.3em;
+  letter-spacing: 0.05em;
+  margin: 0.2em;
+  border-radius: 10px;
+}
+
+.seven {
+  width: 160px;
+  font-family: 'Pangolin';
+  font-size: 0.9em;
+  font-weight: bolder;
+  color: #4103fc;
+  border: 5px groove #4103fc;
+  padding: 0.9em;
+  text-indent: 0.3em;
+  letter-spacing: 0.05em;
+  margin: 0.2em;
+  border-radius: 10px;
+}
+
+.eight {
+  width: 160px;
+  font-family: 'Quicksand';
+  font-size: 0.9em;
+  font-weight: bolder;
+  color: #5603fc;
+  border: 5px groove #5603fc;
+  padding: 0.9em;
+  text-indent: 0.3em;
+  letter-spacing: 0.05em;
+  margin: 0.2em;
+  border-radius: 10px;
+}
+
+.nine {
+  width: 160px;
+  font-family: 'Inconsolata';
+  font-size: 0.9em;
+  font-weight: bolder;
+  color: #7303fc;
+  border: 5px groove #7303fc;
+  padding: 0.9em;
+  text-indent: 0.3em;
+  letter-spacing: 0.05em;
+  margin: 0.2em;
+  border-radius: 10px;
+}
+
+.ten {
+  width: 160px;
+  font-family: 'PT Sans Narrow';
+  font-size: 0.9em;
+  font-weight: bolder;
+  color: #8c03fc;
+  border: 5px groove #8c03fc;
+  padding: 0.9em;
+  text-indent: 0.3em;
+  letter-spacing: 0.05em;
+  margin: 0.2em;
+  border-radius: 10px;
+}
+
+.eleven {
+  width: 160px;
+  font-family: 'Dosis';
+  font-size: 0.9em;
+  font-weight: bolder;
+  color: #a103fc;
+  border: 5px groove #a103fc;
+  padding: 0.9em;
+  text-indent: 0.3em;
+  letter-spacing: 0.05em;
+  margin: 0.2em;
+  border-radius: 10px;
+}
+
+.twelve {
+  width: 160px;
+  font-family: 'Anton';
+  font-size: 0.9em;
+  font-weight: bolder;
+  color: #ba03fc;
+  border: 5px groove #ba03fc;
+  padding: 0.9em;
+  text-indent: 0.3em;
+  letter-spacing: 0.05em;
+  margin: 0.2em;
+  border-radius: 10px;
+}
+
+.thirteen {
+  width: 160px;
+  font-family: 'Cabin';
+  font-size: 0.9em;
+  font-weight: bolder;
+  color: #db03fc;
+  border: 5px groove #db03fc;
+  padding: 0.9em;
+  text-indent: 0.3em;
+  letter-spacing: 0.05em;
+  margin: 0.2em;
+  border-radius: 10px;
+}
+
+.fourteen {
+  width: 160px;
+  font-family: 'Libre Baskerville';
+  font-size: 0.9em;
+  font-weight: bolder;
+  color: #fc03fc;
+  border: 5px groove #fc03fc;
+  padding: 0.9em;
+  text-indent: 0.3em;
+  letter-spacing: 0.05em;
+  margin: 0.2em;
+  border-radius: 10px;
+}
+
+.fifteen {
+  width: 160px;
+  font-family: 'Libre Franklin';
+  font-size: 0.9em;
+  font-weight: bolder;
+  color: #fc03ca;
+  border: 5px groove #fc03ca;
+  padding: 0.9em;
+  text-indent: 0.3em;
+  letter-spacing: 0.05em;
+  margin: 0.2em;
+  border-radius: 10px;
+}
+
+.sixteen {
+  width: 160px;
+  font-family: 'Bitter';
+  font-size: 0.9em;
+  font-weight: bolder;
+  color: #fc03a9;
+  border: 5px groove #fc03a9;
+  padding: 0.9em;
+  text-indent: 0.3em;
+  letter-spacing: 0.05em;
+  margin: 0.2em;
+  border-radius: 10px;
+}
+
+
+.seventeen {
+  width: 160px;
+  font-family: 'Bebas Neue';
+  font-size: 0.9em;
+  font-weight: bolder;
+  color: #fc0384;
+  border: 5px groove #fc0384;
+  padding: 0.9em;
+  text-indent: 0.3em;
+  letter-spacing: 0.05em;
+  margin: 0.2em;
+  border-radius: 10px;
+}
+
+
+.eighteen {
+  width: 160px;
+  font-family: 'Lobster';
+  font-size: 0.9em;
+  font-weight: bolder;
+  color: #fc034a;
+  border: 5px groove #fc034a;
+  padding: 0.9em;
+  text-indent: 0.3em;
+  letter-spacing: 0.05em;
+  margin: 0.2em;
+  border-radius: 10px;
+}
+
+.nineteen {
+  width: 160px;
+  font-family: 'Archivo';
+  font-size: 0.9em;
+  font-weight: bolder;
+  color: #fc0320;
+  border: 5px groove #fc0320;
+  padding: 0.9em;
+  text-indent: 0.3em;
+  letter-spacing: 0.05em;
+  margin: 0.2em;
+  border-radius: 10px;
+}
+
+.twenty {
+  width: 160px;
+  font-family: 'Roboto';
+  font-size: 0.9em;
+  font-weight: bolder;
+  color: #fc0f03;
+  border: 5px groove #fc0f03;
+  padding: 0.9em;
+  text-indent: 0.3em;
+  letter-spacing: 0.05em;
+  margin: 0.2em;
+  border-radius: 10px;
+}
+
+.twentyone{
+  width: 160px;
+  font-family: 'Lexend Mega';
+  font-size: 0.9em;
+  font-weight: bolder;
+  color: #fc3d03;
+  border: 5px groove #fc3d03;
+  padding: 0.9em;
+  text-indent: 0.3em;
+  letter-spacing: 0.05em;
+  margin: 0.2em;
+  border-radius: 10px;
+}
+
+.twentytwo{
+  width: 160px;
+  font-family: 'Sriracha';
+  font-size: 0.9em;
+  font-weight: bolder;
+  color: #fc6b03;
+  border: 5px groove #fc6b03;
+  padding: 0.9em;
+  text-indent: 0.3em;
+  letter-spacing: 0.05em;
+  margin: 0.2em;
+  border-radius: 10px;
+}
+
+.twentythree{
+  width: 160px;
+  font-family: 'Playfair Display';
+  font-size: 0.9em;
+  font-weight: bolder;
+  color: #fc9003;
+  border: 5px groove #fc9003;
+  padding: 0.9em;
+  text-indent: 0.3em;
+  letter-spacing: 0.05em;
+  margin: 0.2em;
+  border-radius: 10px;
+}
+
+.twentyfour{
+  width: 160px;
+  font-family: 'Jomhuria';
+  font-size: 0.9em;
+  font-weight: bolder;
+  color: #fcb103;
+  border: 5px groove #fcb103;
+  padding: 0.9em;
+  text-indent: 0.3em;
+  letter-spacing: 0.05em;
+  margin: 0.2em;
+  border-radius: 10px;
+}
+
+.twentyfive{
+  width: 160px;
+  font-family: 'Pangolin';
+  font-size: 0.9em;
+  font-weight: bolder;
+  color: #fcdb03;
+  border: 5px groove #fcdb03;
+  padding: 0.9em;
+  text-indent: 0.3em;
+  letter-spacing: 0.05em;
+  margin: 0.2em;
+  border-radius: 10px;
+}
+
+.text-one{
+  width: 160px;
+  font-family: 'Quicksand';
+  font-size: 0.9em;
+  font-weight: bolder;
+  color: white;
+  border-left: 1px solid #0324fc;
+  border-right: 1px solid #0324fc;
+  padding: 0.9em;
+  text-indent: 0.3em;
+  letter-spacing: 0.05em;
+  margin: 0.2em;
+  border-radius: 10px;
+}
+
+.text-two{
+  width: 160px;
+  font-family: 'Quicksand';
+  font-size: 0.9em;
+  font-weight: bolder;
+  color: white;
+  border-top: 1px solid #5603fc;
+  border-bottom: 1px solid #5603fc;
+  padding: 0.9em;
+  text-indent: 0.3em;
+  letter-spacing: 0.05em;
+  margin: 0.2em;
+  border-radius: 10px;
+}
+
+.text-three{
+  width: 160px;
+  font-family: 'Quicksand';
+  font-size: 0.9em;
+  font-weight: bolder;
+  color: white;
+  border-top: 1px solid #8c03fc;
+  border-bottom: 1px solid #8c03fc;
+  padding: 0.9em;
+  text-indent: 0.3em;
+  letter-spacing: 0.05em;
+  margin: 0.2em;
+  border-radius: 10px;
+}
+
+.text-four{
+  width: 160px;
+  font-family: 'Quicksand';
+  font-size: 0.9em;
+  font-weight: bolder;
+  color: white;
+  border-top: 1px solid #db03fc;
+  border-bottom: 1px solid #db03fc;
+  padding: 0.9em;
+  text-indent: 0.3em;
+  letter-spacing: 0.05em;
+  margin: 0.2em;
+  border-radius: 10px;
+}
+
+.text-five{
+  width: 160px;
+  font-family: 'Quicksand';
+  font-size: 0.9em;
+  font-weight: bolder;
+  color: white;
+  border-right: 1px solid #fc03a9;
+  border-left: 1px solid #fc03a9;
+  padding: 0.9em;
+  text-indent: 0.3em;
+  letter-spacing: 0.05em;
+  margin: 0.2em;
+  border-radius: 10px;
+}
+.text-six{
+  width: 160px;
+  font-family: 'Quicksand';
+  font-size: 0.9em;
+  font-weight: bolder;
+  color: white;
+  border-right: 1px solid #fc034a;
+  border-left: 1px solid #fc034a;
+  padding: 0.9em;
+  text-indent: 0.3em;
+  letter-spacing: 0.05em;
+  margin: 0.2em;
+  border-radius: 10px;
+}
+
+.text-seven{
+  width: 160px;
+  font-family: 'Quicksand';
+  font-size: 0.9em;
+  font-weight: bolder;
+  color: white;
+  border-right: 1px solid #fc0320;
+  border-left: 1px solid #fc0320;
+  padding: 0.9em;
+  text-indent: 0.3em;
+  letter-spacing: 0.05em;
+  margin: 0.2em;
+  border-radius: 10px;
+}
+
+.text-eight{
+  width: 160px;
+  font-family: 'Quicksand';
+  font-size: 0.9em;
+  font-weight: bolder;
+  color: white;
+  border-right: 1px solid #fc0f03;
+  border-left: 1px solid #fc0f03;
+  padding: 0.9em;
+  text-indent: 0.3em;
+  letter-spacing: 0.05em;
+  margin: 0.2em;
+  border-radius: 10px;
+}
+
+.text-nine{
+  width: 160px;
+  font-family: 'Quicksand';
+  font-size: 0.9em;
+  font-weight: bolder;
+  color: white;
+  border-right: 1px solid #fc9003;
+  border-left: 1px solid #fc9003;
+  padding: 0.9em;
+  text-indent: 0.3em;
+  letter-spacing: 0.05em;
+  margin: 0.2em;
+  border-radius: 10px;
+}
+
+.text-ten{
+  width: 160px;
+  font-family: 'Quicksand';
+  font-size: 0.9em;
+  font-weight: bolder;
+  color: white;
+  border-right: 1px solid #fc9003;
+  border-left: 1px solid #fc9003;
+  padding: 0.9em;
+  text-indent: 0.3em;
+  letter-spacing: 0.05em;
+  margin: 0.2em;
+  border-radius: 10px;
+}
+.text-eleven{
+  width: 160px;
+  font-family: 'Quicksand';
+  font-size: 0.9em;
+  font-weight: bolder;
+  color: white;
+  border-right: 1px solid #fcdb03;
+  border-left: 1px solid #fcdb03;
+  padding: 0.9em;
+  text-indent: 0.3em;
+  letter-spacing: 0.05em;
+  margin: 0.2em;
+  border-radius: 10px;
+}
